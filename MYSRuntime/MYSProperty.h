@@ -26,6 +26,7 @@ typedef NS_ENUM(NSUInteger, MYSPropertyStorageType) {
 @property (nonatomic, assign, readonly) objc_property_t        property;
 @property (nonatomic, copy,   readonly) NSString               *name;
 @property (nonatomic, strong, readonly) MYSType                *type;
+@property (nonatomic, strong, readonly) NSString               *typeName;
 @property (nonatomic, strong, readonly) NSString               *ivarName;
 @property (nonatomic, assign, readonly) BOOL                   isReadOnly;
 @property (nonatomic, assign, readonly) MYSPropertyStorageType storageType;
